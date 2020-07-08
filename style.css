@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: silver;
+    font-family: 'ubuntu', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+    background-blend-mode: multiply, multiply;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 18em;
+    height: 32em;
+    background-image: linear-gradient(to bottom, rgb(48, 47, 47) 0%, black 100%);
+    border-radius: 1em;
+    padding: .6em .5em;
+    box-shadow: 2em 2em 4em black;
+}
+
+.top-icons {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid rgb(58, 56, 56);
+}
+
+.top-icons .left {
+    flex: 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    width: 100%;
+    height: 100%;
+    font-size: .6em;
+}
+
+.top-icons .left p {
+    margin: 0 .8em;
+    text-transform: capitalize;
+}
+
+.top-icons .left p:hover {
+    margin: 0 .3em;
+    font-size: 1.6em;
+    color: yellow;
+    cursor: pointer;
+}
+
+.top-icons .right {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    width: 100%;
+    height: 100%;
+}
+
+.top-icons .right i {
+    font-size: .7em;
+    margin: 0 .3em;
+}
+
+.prize {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    margin: 2em 0;
+}
+
+.prize h3 {
+    font-size: 2.5em;
+    color: yellow;
+    text-align: center;
+    text-shadow: black 30px 10px 5px;
+}
+
+.prize p {
+    font-size: .5em;
+    text-align: center;
+    text-shadow: black 30px 10px 3px;
+}
+
+.slider {
+    flex: 3;
+    background: url(1.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 1em;
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    height: 100%;
+    box-shadow: 1em 1em 15px black;
+}
+
+.slider::before {
+    content: 'muffins';
+    position: relative;
+    font-size: 3em;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.slider .right-i {
+    flex: 5;
+    color: grey;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.text-bottom {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+}
+
+.text-bottom h4 {
+    color: yellow;
+    font-size: .8em;
+}
+
+.text-bottom hr {
+    width: 10%;
+    margin: .8em 0;
+}
+
+.text-bottom p {
+    font-size: .6em;
+    text-align: right;
+}
+
+.text-bottom span {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row;
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-icons {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    width: 100%;
+    height: 100%;
+}
+
+.social-icons {
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+}
+
+.social-icons {
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+}
+
+.social-icons i {
+    margin: .2em 0;
+}
+
+.buton button {
+    width: 9em;
+    height: 3em;
+    background: yellow;
+    border-radius: .8em;
+    border: none;
+    outline: none;
+    color: rgb(29, 31, 1);
+    font-weight: 700;
+    font-size: .6em;
+}
